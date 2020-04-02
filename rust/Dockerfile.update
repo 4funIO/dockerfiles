@@ -1,0 +1,9 @@
+FROM quay.io/glhf/rust
+
+ARG CACHE_DATE=2020-04-02
+
+RUN /home/steam/Steam/steamcmd.sh \
+        +login anonymous \
+        +force_install_dir /home/steam/rust-dedicated \
+        +app_update 258550 \
+        +quit
