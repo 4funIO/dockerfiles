@@ -1,3 +1,4 @@
+# Current change-number 8102582
 FROM 4fun/steamcmd
 
 RUN /home/steam/Steam/steamcmd.sh \
