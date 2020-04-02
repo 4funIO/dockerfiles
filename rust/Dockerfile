@@ -1,4 +1,4 @@
-FROM 4funIO/steamcmd
+FROM 4fun/steamcmd
 
 RUN /home/steam/Steam/steamcmd.sh \
         +login anonymous \
