@@ -1,4 +1,4 @@
-FROM quay.io/glhf/rust
+FROM quay.io/glhf/rust:base-master
 
 ARG CACHE_DATE=2020-04-02
 
